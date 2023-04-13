@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+    /* border: 1px red dotted; */
+}
+
+h1 {
+    text-align:center;
+    font-size:70px;
+    margin:25px;
+}
+.content {
+    background-color:green;
+    height:300px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:25px;
+}
+#first {
+    background-color: green;
+}
+
+#second {
+    background-color: black;
+}
+
+#third {
+    background-color: red;
+}
+
+.b1 img {
+    content:url("https://octodex.github.com/images/godotocat.png");
+    width: 250px;
+}
+.b2 img {
+    content: url(https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg);
+    width: 250px;
+}
+.b3 img {
+    content:url(https://octodex.github.com/images/ironcat.jpg);
+    width:250px;
+}
+
+.c1 img {
+    content:url(https://octodex.github.com/images/manufacturetocat.png);
+    width:250px;
+}
+.c2 img {
+    content:url(https://octodex.github.com/images/catstello.png);
+    width:250px;
+}
+
+.d1 img {
+    content:url(https://octodex.github.com/images/privateinvestocat.jpg);
+    width:250px;
+}
+.d2 img {
+    content:url(https://octodex.github.com/images/steroidtocat.png);
+    width:250px;
+}
+.d3 img {
+    content:url(https://octodex.github.com/images/spidertocat.png);
+    width:250px;
+}
+.ai-center {
+    align-items: center;
+}
+
+.jc-evenly {
+    justify-content: space-evenly;
+}
+
+.flexed {
+    display:flex;
+}
