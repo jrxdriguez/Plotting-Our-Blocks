@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+.li {
+    list-style: none;
+}
+.align {
+    align-items: center;
+}
+.aligntxt {
+    text-align: center;
+}
+.flexed {
+    display:flex;
+}
+
+.margintop {
+    margin-top: 15px;
+}
+.spaceb {
+    justify-content: space-between;
+}
+.jcbetween {
+    justify-content: space-between;
+}
+.jcright {
+    justify-content: right;
+}
+
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.container {
+    margin-left:15%;
+    margin-right:15%;
+    height: 1000px;
+    margin-top:10px;
+    gap:20px;
+}
+
+.col1 {
+    flex:.8;
+}
+.box1 {
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box1 img {
+    display:block;
+    width: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.bluetext {
+    color: blue;
+    text-align: center;
+}
+
+.col2 {
+    flex:2;
+   
+}
+
+.box {
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding:15px;
+}    
+
+.boxheader {
+    margin-bottom: 8px;
+}
+.boxheaderright {
+    display:flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap:5px;
+}
+.likebtn {
+    background-color: yellow;
+    padding:3px 10px 3px 10px;
+    box-shadow: 2px 2px black;
+    margin-left: 30px;
+}

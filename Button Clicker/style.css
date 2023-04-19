@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+.li {
+    list-style: none;
+}
+.align {
+    align-items: center;
+}
+.flexed {
+    display:flex;
+}
+
+.navbar {
+    background-color:lightgrey;
+    padding:10px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 20px;
+}
+.topheader {
+    display:flex;
+    justify-content:space-between;
+}
+.searchbar {
+    border:2px black;
+}
+.loginbtn {
+    background-color: blue;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    box-shadow: 2px 2px black;
+}
+
+.container {
+    height:500px;
+    display:flex;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.side1{
+    width:60%;
+    height:500px;
+    margin-right:20px;
+    
+}
+.side2 {
+    width:40%;
+    height:500px;
+}
+
+.box1 {
+    border:2px black solid;
+    display:flex;
+}
+.content1 {
+    padding:15px;
+}
+.likes {
+    background-color: yellow;
+    padding: 5px 12px 5px 12px;
+    box-shadow: 2px 2px black;
+}
+.content2 {
+    padding:60px 15px 50px 15px;
+}
+.bunderline {
+    color:blue;
+}
+
+.box2 {
+    border:2px black solid;
+    display:flex;
+    margin-top: 20px;
+}
+
+.box3 {
+    border:2px black solid;
+    padding:10px;
+}
+.defbtn {
+    background-color: green;
+    padding: 5px 12px 5px 12px;
+    box-shadow: 4px 4px black;
+    width: 140%;
+}

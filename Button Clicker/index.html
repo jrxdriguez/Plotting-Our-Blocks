@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="li topheader align">
+            <li><h1>Dojonary</h1></li>
+            <li>
+                <label><input type:="text" placeholder="Search"></label>
+            </li>
+            <button class="loginbtn" onclick="changeText(this)">
+                Login
+            </button>   
+        </ul>      
+    </div>
+
+    <div class="container">
+
+        <div class="side1">
+            <div class="box1">
+                <div class="content1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h5 flexed>Plural:
+                        <i>ninjas</i>
+                    </h5><br>
+                    <button class="likes" onclick="alert('Ninja was liked')"> 13 likes</button>
+                </div>
+                <div class="content2">
+                    <h5>A practitioner skilled in the</h5>
+                    <h5><u class="bunderline">Japanese</u> art of <u class="bunderline">ninjutsu</u></h5>
+                </div>        
+            </div>
+            <div class="box2">
+                <div class="content1">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h5 flexed>Plural:
+                        <i>ninjas</i>
+                    </h5><br>
+                    <button class="likes" onclick="alert('Ninja was liked')"> 37 likes</button>
+                </div>
+                <div class="content2">
+                    <h5>A <u class="bunderline">programmer</u> who breaks</h5>
+                    <h5>down problems with <u class="bunderline">zen</u>-like</h5>
+                    <h5>focus</h5>
+                </div>        
+            </div>
+        </div>
+
+        <div class="side2">
+            <div class="box3">
+                <h3>Dojonary is</h3>
+                <h3>defined by <b>YOU</b></h3><br>
+                <button onclick="removeClick(this)"><h4 class="defbtn">Add Definition</h4></button>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+</body>
+
+<script src="script.js"></script>
